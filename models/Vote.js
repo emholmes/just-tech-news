@@ -18,7 +18,7 @@ Vote.init(
         key: "id"
       }
     },
-    post_url: {
+    post_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {

@@ -1,5 +1,5 @@
-const User = require("./Users");
 const Post = require("./Post");
+const User = require("./User");
 const Vote = require("./Vote");
 
 // create associations
