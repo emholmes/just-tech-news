@@ -18,7 +18,7 @@ User.belongsToMany(Post, {
   as: "voted_posts",
 
   foreignKey: "user_id",
-  onDelete: "SET NULL"
+  // onDelete: "SET NULL"
 });
 
 Post.belongsToMany(User, {
